@@ -2,7 +2,6 @@
 #include <unistd.h>
 #include <sys/wait.h>
 #include <fcntl.h>
-#include <string.h>
 
 int main()
 {
