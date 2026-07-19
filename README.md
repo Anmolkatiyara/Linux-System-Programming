@@ -25,14 +25,17 @@ This repository contains my C programs created while learning Linux System Progr
 
 ```
 Linux-System-Programming/
-│
 ├── README.md
 └── process-management/
+    ├── binary-search-using-fork/
+    │   ├── README.md
+    │   └── binary_search_using_fork.c
     ├── fork_basics.c
     ├── fork_basics2.c
     ├── fork_return_value.c
     ├── multiple_fork.c
     ├── multiple_fork2.c
+    ├── pipe_basics.c
     ├── process_counting.c
     └── wait_basics.c
 ```
