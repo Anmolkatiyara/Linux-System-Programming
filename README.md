@@ -29,14 +29,30 @@ Linux-System-Programming/
 └── process-management/
     ├── binary-search-using-fork/
     │   ├── README.md
+    │   ├── binary_search_using_fork
     │   └── binary_search_using_fork.c
+    ├── fifo/
+    │   ├── 01-independent-processes-array-sorting/
+    │   │   ├── README.md
+    │   │   ├── receiver.c
+    │   │   └── sender.c
+    │   └── 02-independent-processes-structure-transfer/
+    │       ├── README.md
+    │       ├── receiver.c
+    │       └── sender.c
+    ├── fifo_named_pipe
+    ├── fifo_named_pipe.c
     ├── fork_basics.c
     ├── fork_basics2.c
     ├── fork_return_value.c
     ├── multiple_fork.c
     ├── multiple_fork2.c
+    ├── pipe_basic
     ├── pipe_basics.c
     ├── process_counting.c
+    ├── two_way_communication.c
+    ├── two_way_communication_using_fifo
+    ├── two_way_communication_using_fifo.c
     └── wait_basics.c
 ```
 
