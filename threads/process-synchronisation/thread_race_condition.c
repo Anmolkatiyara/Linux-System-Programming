@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <pthread.h>
+
+int counter = 0;
+
+void* increment(void* arg)
+{
+    for(int i = 0; i < 1000000; i++)
+    {
+        counter++;
+    }
+
+    return NULL;
+}
+
+int main()
+{
+    pthread_t tid1, tid2;
+
+    pthread_create(&tid1, NULL, increment, NULL);
+    pthread_create(&tid2, NULL, increment, NULL);
+
+    pthread_join(tid1, NULL);
+    pthread_join(tid2, NULL);
+
+    printf("Final counter value: %d\n", counter);
+
+    return 0;
+}
